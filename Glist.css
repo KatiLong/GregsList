@@ -1,0 +1,61 @@
+body {
+  font-family: Sans-Serif;
+}
+
+nav {
+  position: fixed;
+  background-color: #f2f2f2;
+  /*font-size: 25px;*/
+  height: 50px;
+  width: 100%;
+  border: 1px solid #e4e4e4;
+}
+
+.left {
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.right {
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  color: purple;
+}
+
+main {
+  padding-left: 50px;
+}
+
+.search-bar {
+  padding-top: 100px;
+}
+
+#label {
+  display: block;
+}
+
+#input1, #search-button {
+  display: inline-block;
+  height: 20px;
+  font-size: 20px;
+}
+
+/*#search-button {*/
+/*  background: url="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png" no-repeat center center fixed;*/
+/*}*/
+
+.toggle {
+  padding-top: 30px;
+  font-size: 0;
+}
+
+.results {
+  color: grey;
+}
+
+.job-title {
+  color: blue;
+  font-weight: bold;
+}
